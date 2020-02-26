@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px
+}
+
+.header {
+    height: 150px;
+    display: flex;
+
+    background-color: black;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbutton {
+    margin: 5px;
+    height: 60px;
+    width: 150px;
+}
+
+.navbutton:last-child {
+    margin-right: 30px;
+}
